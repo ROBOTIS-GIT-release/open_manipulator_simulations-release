@@ -1,0 +1,2 @@
+# open_manipulator_simulations-release
+Bloom release repository for open_manipulator_simulations
