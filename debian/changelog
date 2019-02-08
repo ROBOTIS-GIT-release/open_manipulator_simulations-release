@@ -1,0 +1,35 @@
+ros-melodic-open-manipulator-simulations (1.1.0-0bionic) bionic; urgency=high
+
+  * added subscriber for gripper control #3 <https://github.com/ROBOTIS-GIT/open_manipulator_simulations/issues/3>
+  * added pid gain for gazebo controller
+  * change gripper name
+  * change effort to position controllers
+  * Contributors: Darby Lim, Hye-Jong KIM, Pyo
+
+ -- Pyo <pyo@robotis.com>  Thu, 07 Feb 2019 15:00:00 -0000
+
+ros-melodic-open-manipulator-simulations (1.0.0-0bionic) bionic; urgency=high
+
+  * package reconfiguration for OpenManipulator
+  * Contributors: Darby Lim
+
+ -- Pyo <pyo@robotis.com>  Thu, 31 May 2018 15:00:00 -0000
+
+ros-melodic-open-manipulator-simulations (0.1.1-0bionic) bionic; urgency=high
+
+  * none
+
+ -- Pyo <pyo@robotis.com>  Wed, 14 Mar 2018 15:00:00 -0000
+
+ros-melodic-open-manipulator-simulations (0.1.0-0bionic) bionic; urgency=high
+
+  * modified gazebo dependency
+  * update gazebo
+  * update moveit
+  * modified cmake, package files for release
+  * refactoring for release
+  * Contributors: Darby Lim, Pyo
+
+ -- Pyo <pyo@robotis.com>  Tue, 13 Mar 2018 15:00:00 -0000
+
+
