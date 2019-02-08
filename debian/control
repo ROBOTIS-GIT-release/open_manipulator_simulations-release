@@ -1,0 +1,12 @@
+Source: ros-kinetic-open-manipulator-gazebo
+Section: misc
+Priority: extra
+Maintainer: Pyo <pyo@robotis.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-controller-manager, ros-kinetic-gazebo-ros, ros-kinetic-gazebo-ros-control, ros-kinetic-roscpp, ros-kinetic-std-msgs, ros-kinetic-urdf, ros-kinetic-xacro
+Homepage: http://wiki.ros.org/open_manipulator_gazebo
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-open-manipulator-gazebo
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-controller-manager, ros-kinetic-gazebo-ros, ros-kinetic-gazebo-ros-control, ros-kinetic-roscpp, ros-kinetic-std-msgs, ros-kinetic-urdf, ros-kinetic-xacro
+Description: Gazebo configurations package for OpenManipulator
