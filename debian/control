@@ -1,0 +1,12 @@
+Source: ros-noetic-open-manipulator-simulations
+Section: misc
+Priority: optional
+Maintainer: Will Son <willson@robotis.com>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin
+Homepage: http://wiki.ros.org/open_manipulator_simulations
+Standards-Version: 3.9.2
+
+Package: ros-noetic-open-manipulator-simulations
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-open-manipulator-gazebo
+Description: Simulation packages for OpenManipulator
